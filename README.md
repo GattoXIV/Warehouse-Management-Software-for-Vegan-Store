@@ -1,14 +1,14 @@
 # 📦 BioMarket Warehouse Storage System
 
-## 📝 Descrizione del Progetto
-Semplice applicazione CLI (Command Line Interface) in Python per la gestione dell'inventario e delle vendite di un magazzino/negozio (BioMarket). I dati vengono salvati in modo persistente utilizzando un file JSON.
+## 📝 Project Overview
+A straightforward Command Line Interface (CLI) application written in Python for managing warehouse inventory and sales for a bio-market. Data is persistently saved and loaded using a JSON file.
 
-## 🎯 Funzionalità Principali (Comandi)
-* `add`: Aggiunge nuovi prodotti all'inventario o aggiorna le quantità esistenti.
-* `list`: Mostra tutti i prodotti disponibili in magazzino.
-* `sale`: Registra una vendita, riducendo lo stock e aggiornando il registro delle transazioni.
-* `profits`: Calcola e visualizza i profitti lordi o netti basati sulle vendite registrate.
-* `help`: Mostra la lista dei comandi disponibili.
+## 🎯 Main Features (Commands)
+* `add`: Adds new products to the inventory or updates existing quantities.
+* `list`: Displays all available products in the warehouse.
+* `sale`: Registers a sale, reducing stock and updating the transaction log.
+* `profits`: Calculates and displays gross/net profits based on recorded sales.
+* `help`: Shows the list of available commands.
 
-## 🛠️ Tecnologie
-* Python (Librerie standard: `json`, `os`)
+## 🛠️ Technologies
+* Python (Standard libraries: `json`, `os`)
